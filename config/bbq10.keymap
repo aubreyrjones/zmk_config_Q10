@@ -52,10 +52,10 @@
 
                  &mkp LCLK                                                                                          &mkp RCLK
     &kp CLCK                &sk LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp TAB
-    &kp Q        &mt N1, W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
-    &kp A        &mt N4, S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
-    &sk LSHFT    &mt N7, Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp SEMI         &kp ENTER
-    &sk LCTRL    &mt LALT, N0                            &kp SPACE                          &tog SYM                          &tog UPPER
+    &mt HASH Q   &mt N1 W   &mt N2 E    &mt N3 R     &mt LPAR T    &mt RPAR Y      &mt UNDER U     &mt MINUS I      &mt PLUS O       &mt AT P
+    &mt STAR A   &mt N4 S   &mt N5 D    &mt N6 F     &mt SLASH G   &mt COLON H     &mt SEMI J      &mt APOS K       &mt QDT L        &kp BSPC
+    &sk LSHFT    &mt N7 Z   &mt N8 X    &mt N9 C     &mt QMARK V   &mt EXCL B      &mt COMMA N     &kp DOT M        &kp SEMI         &kp ENTER
+    &sk LCTRL    &mt LALT N0                            &kp SPACE                          &sl SYM                          &tog UPPER
             >;
         };
 
