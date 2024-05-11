@@ -39,7 +39,7 @@
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <400>;
+            tapping-term-ms = <600>;
             bindings = <&sk LSHFT>, <&kp CLCK>;
         };
     };
@@ -60,10 +60,10 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &mkp LCLK                                                                                          &mkp RCLK
-    &kp CLCK                &sk LGUI                            &mkp LCLK                          &kp ESC                  &kp TAB
+    &kp LG(ENTER)             &sk LGUI                            &mkp LCLK                          &kp ESC                  &kp TAB
     &mt HASH Q   &mt N1 W   &mt N2 E    &mt N3 R     &mt LPAR T    &mt RPAR Y      &mt UNDER U     &mt MINUS I      &mt PLUS O       &mt AT P
     &mt STAR A   &mt N4 S   &mt N5 D    &mt N6 F     &mt SLASH G   &mt COLON H     &mt SEMI J      &mt APOS K       &mt DQT L        &kp BSPC
-    &sk LCTRL    &mt N7 Z   &mt N8 X    &mt N9 C     &mt QMARK V   &mt EXCL B      &mt COMMA N     &mt DOT M        &mt DOLLAR QMARK &kp ENTER
+    &sk LCTRL    &mt N7 Z   &mt N8 X    &mt N9 C     &mt QMARK V   &mt EXCL B      &mt COMMA N     &mt DOT M        &mt DOLLAR EQUAL &kp ENTER
     &td1         &mt LALT N0                            &kp SPACE                          &tog UPPER                          &tog NAV
             >;
         };
@@ -74,10 +74,10 @@
             bindings = <        
                  &kp C_VOL_DN                                                                                       &kp C_VOL_UP
     &kp LG(ENTER)               &sk LGUI                     &mkp LCLK                          &kp ESC                            &kp LG(LS(Q)) 
-    &none        &kp LG(UP)     &none       &kp N3    &mt LBKT LBRC &mt RBKT RBRC   &kp HOME         &kp UP           &kp END          &kp SCRL_UP
-    &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp N6    &kp SLASH     &kp PAGE_UP     &kp LEFT         &kp DOWN         &kp RIGHT        &kp SCRL_DOWN
-    &sk LSHFT    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp PAGE_DOWN       &kp LC(LEFT)     &kp DOT          &kp LC(RIGHT)    &kp ENTER
-    &sk LCTRL               &kp N0                              &kp SPACE                          &tog UPPER                          &tog NAV
+    &kp LC(PAGE_UP)        &none          &kp LG(UP) &kp N3    &mt LBKT LBRC &mt RBKT RBRC   &kp HOME         &kp UP           &kp END           &msc SCRL_UP
+    &kp LC(PAGE_DOWN)      &kp LG(LEFT)   &kp LG(DOWN) &kp LG(RIGHT) &kp SLASH     &kp PAGE_UP     &kp LEFT   &kp DOWN         &kp RIGHT         &msc SCRL_DOWN
+    &sk LCTRL    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp PAGE_DOWN       &kp LC(LEFT)     &kp DOT          &kp LC(RIGHT)    &kp ENTER
+    &td1                &kp N0                              &kp SPACE                          &tog UPPER                          &tog NAV
             >;
         };
 
