@@ -60,10 +60,10 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &mkp LCLK                                                                                          &mkp RCLK
-    &kp LG(ENTER)             &sk LGUI                            &mkp LCLK                          &kp ESC                  &kp TAB
+    &mkp MCLK             &sk LGUI                            &mkp LCLK                          &kp ESC                  &kp TAB
     &mt HASH Q   &mt N1 W   &mt N2 E    &mt N3 R     &mt LPAR T    &mt RPAR Y      &mt UNDER U     &mt MINUS I      &mt PLUS O       &mt AT P
     &mt STAR A   &mt N4 S   &mt N5 D    &mt N6 F     &mt SLASH G   &mt COLON H     &mt SEMI J      &mt APOS K       &mt DQT L        &kp BSPC
-    &sk LCTRL    &mt N7 Z   &mt N8 X    &mt N9 C     &mt QMARK V   &mt EXCL B      &mt COMMA N     &mt DOT M        &mt DOLLAR EQUAL &kp ENTER
+    &sk LCTRL    &mt N7 Z   &mt N8 X    &mt N9 C     &mt QMARK V   &mt EXCL B      &mt COMMA N     &mt DOT M        &mt EQUAL DOLLAR &kp ENTER
     &td1         &mt LALT N0                            &kp SPACE                          &tog UPPER                          &tog NAV
             >;
         };
